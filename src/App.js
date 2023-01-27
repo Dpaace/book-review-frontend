@@ -1,7 +1,10 @@
+import Register from "./components/Register";
+
 function App() {
   return (
-    <div>
+    <div className="container">
       <h2>Book Review</h2>
+      <Register/>
     </div>
   );
 }
